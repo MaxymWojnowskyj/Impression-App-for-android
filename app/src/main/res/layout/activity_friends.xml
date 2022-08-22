@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsActivity">
+
+    <Button
+        android:id="@+id/createGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Create game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friendsLabel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/joinGameTxt"
+        android:layout_width="198dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Enter Game Code"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createGameBtn"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <Button
+        android:id="@+id/joinGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/joinGameTxt"
+        app:layout_constraintTop_toBottomOf="@+id/createGameBtn"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/friendsLabel"
+        android:layout_width="291dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Multiplayer Friend mode"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
