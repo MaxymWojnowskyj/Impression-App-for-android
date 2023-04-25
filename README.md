@@ -1,7 +1,5 @@
 # Impression-App-for-android
 
-(Commented out code is for future development to be linked with https://github.com/MaxymWojnowskyj/Impression-App-socket-server)
-
 Implemented Firebase google authentication along with a temporary create and join friend mode functionality using Firebase Realtime database. With the purpose of familiariazing my self with android app development using android studio and Firebase as the backend database server. 
 
 
